@@ -25,7 +25,6 @@ const validateUnits = (x, y) => {
 };
 
 const getDegrees = (degree, variance) => {
-    console.log("degrees : " + (360 + degree + variance) % 360);
     return (360 + degree + variance) % 360;
 };
 
